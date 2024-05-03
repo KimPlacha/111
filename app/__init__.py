@@ -14,5 +14,4 @@ def hello():
 def products():
     products_list = ["Apple", "Banana", "Cherry"]
     bullet_list = "".join(f"<li>{product}</li>" for product in products_list)
-    return f"<ul>{bullet_list}</ul>"
-ß
+    return f"<ul>{bullet_list}</ul>"FLASK
